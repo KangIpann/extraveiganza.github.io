@@ -757,4 +757,7 @@ img {
   .qualification__container {
     column-gap: 6rem;
   }
+  .home__img img {
+    width: 360px;
+  }
 }
