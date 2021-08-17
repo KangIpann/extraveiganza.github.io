@@ -86,5 +86,5 @@ const mySwiper = new Swiper('.testimonial__container', {
  })
 
 /*===== GSAP ANIMATION =====*/ 
-mySwiper.from('.home__img', {opacity: 0, duration: 2, delay:.5, x:60})
+gsap.from('.home__img', {opacity: 0, duration: 2, delay:.5, x:60})
 
