@@ -652,6 +652,18 @@ img {
   font-size: var(--smaller-font-size);
   color: var(--first-color-light);
 }
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: #666;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #c2c2c2;
+  border-radius: 100px;
+}
 /*===== MEDIA QUERIES =====*/
 @media screen and (min-width: 576px) {
   .home__img img {
