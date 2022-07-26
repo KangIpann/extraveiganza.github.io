@@ -12,7 +12,8 @@
 
     <!-- ===== CSS ===== -->
     <link rel="stylesheet" href="assets/css/styles.css" />
-    <link rel="shortcut icon" href="assets/img/Ipan_favicon.png" type="image/x-icon"></link>
+    <link rel="shortcut icon" href="assets/img/Ipan_favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>    
     <title>KangIpann</title>
   </head>
   <body>
@@ -69,12 +70,12 @@
             <p class="about__description"><span>Hello, i am </span>a student of Telkom Senior High School. I am a software engineer student. You can call me Ivan</p>
 
             <div>
-              <span class="about__number">02</span>
+              <span class="about__number">03</span>
               <span class="about__achievement">Years off Experience</span>
             </div>
 
             <div>
-              <span class="about__number">01</span>
+              <span class="about__number">28</span>
               <span class="about__achievement">Projects completes</span>
             </div>
 
@@ -107,7 +108,7 @@
                     <i class="bx bx-book qualification__icon"></i>
                     Telkom Malang - Senior High School
                   </span>
-            
+                  <br>
                   <span class="qualification__work">
                     <i class="bx bx-calendar-alt qualification__icon"></i>
                     June-2021
@@ -118,13 +119,12 @@
               <div class="bd-grid">
                 <div class="qualification__data">
                   <h3 class="qualification__area">Research and Deelopement</h3>
-                
                   <div class="qualification__box">
                     <span class="qualification__work">
                       <i class="bx bx-book qualification__icon"></i>
                       Metic-Moklet Sub Organitation
                     </span>
-              
+              <br>
                     <span class="qualification__work">
                       <i class="bx bx-calendar-alt qualification__icon"></i>
                       November-2021
@@ -141,7 +141,7 @@
                       <i class="bx bx-book qualification__icon"></i>
                       Niomic
                     </span>
-              
+                    <br>
                     <span class="qualification__work">
                       <i class="bx bx-calendar-alt qualification__icon"></i>
                       May-2021
@@ -156,9 +156,9 @@
                 <div class="qualification__box">
                   <span class="qualification__work">
                     <i class="bx bx-book qualification__icon"></i>
-                    Android Programing in Udemy By Santren Coding 
+                    Android Programing in Udemy
                   </span>
-            
+                  <br>
                   <span class="qualification__work">
                     <i class="bx bx-calendar-alt qualification__icon"></i>
                     January-2022
@@ -302,12 +302,11 @@
         </div>
       </section>
       <!--===== TESTIMONIAL =====-->
-      <!-- <section class="testimonial section bd-container" >
+      <!-- <section class="testimonial section bd-container swipper" >
         <span class="section-subtitle">My client saying</span>
         <h2 class="section-title">Testimonial</h2>
 
-        <div class="testimonial__container swiper-container">
-          <div class="swiper-wrapper">
+        <div class="testimonial__container swiper-wrapper">
             <div class="testimonial__content swiper-slide">
               <img src="assets/img/testimonial1.jpg" alt="" class="testimonial__img">
               <h3 class="testimonial__title">Nik Holly</h3>
@@ -328,9 +327,11 @@
               <span class="testimonial__client">Client</span>
               <p class="testimonial__description">This company does a very good service, offers the best deals and does a good job, I recomend it.</p>
             </div>
-          
           <div class="swiper-pagination"></div>
-        </div>
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>
+          <!-- If we need scrollbar -->
+          <div class="swiper-scrollbar"></div>
         </section> -->
       <!--===== CONTACTME =====-->
       <section class="contact section bd-container" id="contact" >
@@ -405,6 +406,7 @@
 
     <!-- ===== SWIPER JS ===== -->
     <script src="assets/js/swiper-bundle.min.js"></script>
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
 
     <!-- ===== GSAP ===== -->
     <script src="assets/js/gsap.min.js" defer></script>
